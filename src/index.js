@@ -14,7 +14,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="*"element={<NotFound/>} />
       </Routes>
-    </HashR>
+    </HashRouter>
   </React.StrictMode>
 );
 
