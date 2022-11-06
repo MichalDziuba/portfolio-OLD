@@ -43,6 +43,11 @@ export const Contact = () => {
               required
             ></textarea>
             <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://michaldziuba.github.io/portfolio/"
+            ></input>
             <button type="submit" className={styles.form__btn}>
               Send
             </button>
