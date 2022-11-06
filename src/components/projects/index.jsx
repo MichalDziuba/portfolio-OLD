@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import portfolioItems from "../../data/portfolioItems.json";
+import {portfolioItems} from "../../data/portfolioItems";
 import { ProjectItem } from "../projectItem";
 export const Projects = () => {
   return (
