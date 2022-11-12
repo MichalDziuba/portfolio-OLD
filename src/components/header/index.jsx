@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Logo from "../../images/logo.png";
+import Logo from "../../images/logo.webp";
 import styles from "./styles.module.css";
 export const Header = () => {
   const refMenu = useRef(null);
@@ -29,7 +29,7 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src={Logo} alt="logo" className={styles.logo} />
+        <img src={Logo} alt="logo" className={styles.logo} loading="lazy" />
       </div>
       <div>
         <ul className={styles.menu} ref={refMenu}>

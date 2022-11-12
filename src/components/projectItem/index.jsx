@@ -7,7 +7,7 @@ export const ProjectItem = ({ item }) => {
   return (
     <div className={styles.item}>
       <div className={styles.thumb}>
-        <img src={item.preview} className={styles.image} alt="preview"></img>
+        <img src={item.preview} className={styles.image} alt="preview" loading="lazy"></img>
       </div>
 
       <div className={styles.item__specification}>

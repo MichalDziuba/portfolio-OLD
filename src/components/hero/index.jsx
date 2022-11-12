@@ -1,4 +1,4 @@
-import HeroImage from "../../images/hero.png";
+import HeroImage from "../../images/hero.webp";
 import styles from "./styles.module.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -9,7 +9,7 @@ export const Hero = () => {
     <section id="home">
       <div className={styles.hero}>
         <div className={styles.hero__image}>
-          <img src={HeroImage} alt="Developer" className={styles.image} />
+          <img src={HeroImage} alt="Developer" className={styles.image} loading="lazy" />
         </div>
         <div className={styles.description}>
           <p>Michał Dziuba</p>
@@ -45,10 +45,10 @@ export const Hero = () => {
             </li>
           </ul>
         </div>
-        <button className={styles.scroll__button}>
-          <div className={styles.scroll__circle1}></div>
-          <div className={styles.scroll__circle2}></div>
-        </button>
+        <div className={styles.scroll__circles}>
+          <div className={styles.circle1}></div>
+          <div className={styles.circle2}></div>
+        </div>
       </div>
     </section>
   );

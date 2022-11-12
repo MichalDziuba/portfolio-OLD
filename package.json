@@ -1,6 +1,5 @@
 {
   "name": "porfolio-app",
-  "homepage": "http://MichalDziuba.github.io/portfolio",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

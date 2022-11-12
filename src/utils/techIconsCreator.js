@@ -10,6 +10,7 @@ import githubIcon from "../icons/github.svg";
 import gitIcon from "../icons/git.svg";
 import nodeIcon from "../icons/nodejs.svg";
 import sassIcon from "../icons/sass.svg";
+import taliwindIcon from '../icons/tailwind.svg'
 export const techIcons = ({
   e,
   classNameIcon,
@@ -112,6 +113,14 @@ export const techIcons = ({
       <div className={classNameIconWrapper}>
         <img className={classNameIcon} src={sassIcon} alt="icon" />
         <span className={classNameTooltip}>Sass</span>
+      </div>
+    );
+  }
+  if (elements.includes("tailwind")) {
+    icons.push(
+      <div className={classNameIconWrapper}>
+        <img className={classNameIcon} src={taliwindIcon} alt="icon" />
+        <span className={classNameTooltip}>Tailwindcss</span>
       </div>
     );
   }

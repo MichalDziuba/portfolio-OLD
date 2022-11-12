@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import aboutImg from "../../images/about.png";
-import certificate from '../../images/certificate.png'
+import aboutImg from "../../images/about.webp";
+import certificate from '../../images/certificate.webp'
 import Backdrop from "@mui/material/Backdrop";
 import { useState } from "react";
 import {  Technologies } from "../technologies";
@@ -20,7 +20,7 @@ export const About = () => {
       </div>
       <div className={styles.about__wrapper}>
         <div className={styles.img__wrapper}>
-          <img className={styles.image} src={aboutImg} alt="programming" />
+          <img className={styles.image} src={aboutImg} alt="programming" loading="lazy"/>
         </div>
         <div className={styles.about__description}>
           Hello, my name is Michal. I am 28 years old and I want to become a
@@ -50,6 +50,7 @@ export const About = () => {
             className={styles.certificate__img}
             src={certificate}
             alt="certificate"
+            loading="lazy"
           />
         </div>
           </Backdrop>

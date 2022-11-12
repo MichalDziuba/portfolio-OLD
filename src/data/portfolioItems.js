@@ -1,11 +1,11 @@
-import imagefinderImage from '../images/ImageFinder.png';
-import moviefinderImage from '../images/MovieFinder.png';
-import bookfinderImage from '../images/BookFinder.png';
-import phonbookImage from '../images/Phonebook.png'
+import imagefinderImage from '../images/ImageFinder.webp';
+import moviefinderImage from '../images/MovieFinder.webp';
+import bookfinderImage from '../images/BookFinder.webp';
+import phonbookImage from '../images/Phonebook.webp'
 export const portfolioItems = [
   {
     title: "ImageFinder",
-    tech: "HTML,CSS,React,RestAPI",
+    tech: "React,Tailwind,RestAPI",
     link: "https://michaldziuba.github.io/goit-react-hw-04-hooks-images/",
     preview: `${imagefinderImage}`,
     description: "WebSite for searching images with PixaBay API.",

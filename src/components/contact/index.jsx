@@ -1,4 +1,4 @@
-import contactPhoto from "../../images/email.png";
+import contactPhoto from "../../images/email.webp";
 import styles from "./styles.module.css";
 export const Contact = () => {
   return (
@@ -9,7 +9,7 @@ export const Contact = () => {
       </div>
       <div className={styles.contact}>
         <div className={styles.image__wrapper}>
-          <img className={styles.image} src={contactPhoto} alt="email" />
+          <img className={styles.image} src={contactPhoto} alt="email" loading="lazy"/>
         </div>
         <div>
           <form
