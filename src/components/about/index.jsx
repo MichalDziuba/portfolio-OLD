@@ -51,6 +51,8 @@ export const About = () => {
             src={certificate}
             alt="certificate"
             loading="lazy"
+
+            
           />
         </div>
           </Backdrop>
