@@ -1,7 +1,7 @@
 import imagefinderImage from '../images/ImageFinder.webp';
 import moviefinderImage from '../images/MovieFinder.webp';
 import bookfinderImage from '../images/BookFinder.webp';
-import phonbookImage from '../images/Phonebook.webp'
+import phonebookImage from '../images/Phonebook.webp'
 export const portfolioItems = [
   {
     title: "ImageFinder",
@@ -32,7 +32,7 @@ export const portfolioItems = [
     title: "Phonebook",
     tech: "JS,CSS,React,Redux",
     link: "https://phonebook-md.netlify.app/",
-    preview: `${phonbookImage}`,
+    preview: `${phonebookImage}`,
     description:
       "Phone book application with user registration and login. Used Connections API as backend.",
     code: "https://github.com/MichalDziuba/goit-react-hw-08--phonebook",

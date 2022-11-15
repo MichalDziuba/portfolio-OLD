@@ -1,17 +1,17 @@
 import styles from "./styles.module.css";
 import aboutImg from "../../images/about.webp";
-import certificate from '../../images/certificate.webp'
+import certificate from "../../images/certificate.webp";
 import Backdrop from "@mui/material/Backdrop";
 import { useState } from "react";
-import {  Technologies } from "../technologies";
+import { Technologies } from "../technologies";
 export const About = () => {
-     const [open, setOpen] = useState(false);
-     const handleClose = () => {
-       setOpen(false);
-     };
-     const handleToggle = () => {
-       setOpen(!open);
-     };
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleToggle = () => {
+    setOpen(!open);
+  };
   return (
     <section id="about">
       <div className={styles.section__title}>
@@ -20,7 +20,12 @@ export const About = () => {
       </div>
       <div className={styles.about__wrapper}>
         <div className={styles.img__wrapper}>
-          <img className={styles.image} src={aboutImg} alt="programming" loading="lazy"/>
+          <img
+            className={styles.image}
+            src={aboutImg}
+            alt="programming"
+            loading="lazy"
+          />
         </div>
         <div className={styles.about__description}>
           Hello, my name is Michal. I am 28 years old and I want to become a
@@ -51,12 +56,10 @@ export const About = () => {
             src={certificate}
             alt="certificate"
             loading="lazy"
-
-            
           />
         </div>
-          </Backdrop>
-          <Technologies/>
+      </Backdrop>
+      <Technologies />
     </section>
   );
 };
