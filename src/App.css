@@ -4,15 +4,11 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight:500;
-   font-size: 10px;
-   font-smooth: always;
+  font-size: 10px;
+  font-smooth: always;
 
 }
-@media screen and (min-width:2400px) {
-  *{
-    font-size: 20px;
-  }
-}
+
 body {
 
   overflow-x: hidden !important;
