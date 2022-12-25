@@ -42,9 +42,6 @@ margin-top: 6rem; */
 
 }
 @media screen and (min-width: 1000px) {
-  .section__projects{
-   
-  }
   .items__list{
   grid-template-columns: 1fr 1fr;
   }
