@@ -36,12 +36,12 @@ export const About = () => {
             certificate
           </button>
           . During the course I learned technologies like HTML, CSS, JavaScript,
-          React and Node.js. I have experience working in a group using Scrum
-          and Agile methodologies, because this is how we worked during group
-          projects. At the moment I am focusing on expanding my knowledge and
-          learning new technologies. I am looking for my first job as a
-          Fullstack Developer/Frontend Developer. If you want to contact me or
-          have any questions for me, check out the contact section below!
+          TypeScript, React and Node.js. I have experience working in a group
+          using Scrum and Agile methodologies, because this is how we worked
+          during group projects. At the moment I am focusing on expanding my
+          knowledge and learning new technologies. I am looking for my first job
+          as a Fullstack Developer/Frontend Developer. If you want to contact me
+          or have any questions for me, check out the contact section below!
           Thanks!
         </div>
       </div>

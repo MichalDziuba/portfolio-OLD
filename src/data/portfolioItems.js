@@ -1,8 +1,18 @@
 import imagefinderImage from '../images/ImageFinder.webp';
 import moviefinderImage from '../images/MovieFinder.webp';
 import bookfinderImage from '../images/BookFinder.webp';
-import phonebookImage from '../images/Phonebook.webp'
+import phonebookImage from '../images/Phonebook.webp';
+import questifyImage from '../images/Questify.webp';
 export const portfolioItems = [
+  {
+    title: "Questify",
+    tech: "React,Redux,TypeScript,Node,Tailwind",
+    link: "https://michaldziuba.github.io/Questify/",
+    preview: `${questifyImage}`,
+    description:
+      "Full Rest application. Frontend created using React/Redux and TypeScript. Backend using Node.js",
+    code: "https://github.com/MichalDziuba/Questify",
+  },
   {
     title: "ImageFinder",
     tech: "React,Tailwind,JS",
@@ -12,14 +22,15 @@ export const portfolioItems = [
     code: "https://github.com/MichalDziuba/ImagesFinder",
   },
   {
-    title: "MoviesFinder",
-    tech: "HTML,CSS,React,JS",
-    link: "https://michaldziuba.github.io/goit-react-hw-05-movies/",
-    preview: `${moviefinderImage}`,
+    title: "Phonebook",
+    tech: "JS,CSS,React,Redux",
+    link: "https://phonebook-md.netlify.app/",
+    preview: `${phonebookImage}`,
     description:
-      "WebSite for searching movies and details with themoviedb API.",
-    code: "https://github.com/MichalDziuba/goit-react-hw-05-movies",
+      "Phone book application with user registration and login. Used Connections API as backend.",
+    code: "https://github.com/MichalDziuba/goit-react-hw-08--phonebook",
   },
+
   {
     title: "BooksFinder",
     tech: "HTML,CSS,React,JS",
@@ -29,12 +40,12 @@ export const portfolioItems = [
     code: "https://github.com/MichalDziuba/bookfinder",
   },
   {
-    title: "Phonebook",
-    tech: "JS,CSS,React,Redux",
-    link: "https://phonebook-md.netlify.app/",
-    preview: `${phonebookImage}`,
+    title: "MoviesFinder",
+    tech: "HTML,CSS,React,JS",
+    link: "https://michaldziuba.github.io/goit-react-hw-05-movies/",
+    preview: `${moviefinderImage}`,
     description:
-      "Phone book application with user registration and login. Used Connections API as backend.",
-    code: "https://github.com/MichalDziuba/goit-react-hw-08--phonebook",
+      "WebSite for searching movies and details with themoviedb API.",
+    code: "https://github.com/MichalDziuba/goit-react-hw-05-movies",
   },
 ];

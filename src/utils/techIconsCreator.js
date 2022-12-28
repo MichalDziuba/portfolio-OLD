@@ -10,7 +10,8 @@ import githubIcon from "../icons/github.svg";
 import gitIcon from "../icons/git.svg";
 import nodeIcon from "../icons/nodejs.svg";
 import sassIcon from "../icons/sass.svg";
-import taliwindIcon from '../icons/tailwind.svg'
+import taliwindIcon from '../icons/tailwind.svg';
+import typescriptIcon from '../icons/typescript.svg'
 export const techIcons = ({
   e,
   classNameIcon,
@@ -120,7 +121,19 @@ export const techIcons = ({
     icons.push(
       <div className={classNameIconWrapper}>
         <img className={classNameIcon} src={taliwindIcon} alt="icon" />
-        <span className={classNameTooltip}>Tailwindcss</span>
+        <span className={classNameTooltip}>Tailwind</span>
+      </div>
+    );
+  }
+  if (elements.includes("typescript")) {
+    icons.push(
+      <div className={classNameIconWrapper}>
+        <img
+          className={classNameIcon}
+          src={typescriptIcon}
+          alt="icon"
+        />
+        <span className={classNameTooltip}>TypeScript</span>
       </div>
     );
   }
