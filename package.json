@@ -1,7 +1,7 @@
 {
   "name": "porfolio-app",
   "version": "1.0.0",
-  "homepage": "https://michaldziuba.github.io/portfolio/",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
