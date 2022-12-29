@@ -7,7 +7,7 @@ export const portfolioItems = [
   {
     title: "Questify",
     tech: "React,Redux,TypeScript,Node,Tailwind",
-    link: "https://michaldziuba.github.io/Questify/",
+    link: "https://questify-md.netlify.app/",
     preview: `${questifyImage}`,
     description:
       "Full Rest application. Frontend created using React/Redux and TypeScript. Backend using Node.js",
@@ -28,7 +28,7 @@ export const portfolioItems = [
     preview: `${phonebookImage}`,
     description:
       "Phone book application with user registration and login. Used Connections API as backend.",
-    code: "https://github.com/MichalDziuba/goit-react-hw-08--phonebook",
+    code: "https://github.com/MichalDziuba/phonebook",
   },
 
   {
@@ -42,10 +42,10 @@ export const portfolioItems = [
   {
     title: "MoviesFinder",
     tech: "HTML,CSS,React,JS",
-    link: "https://michaldziuba.github.io/goit-react-hw-05-movies/",
+    link: "https://michaldziuba.github.io/MoviesFinder/",
     preview: `${moviefinderImage}`,
     description:
       "WebSite for searching movies and details with themoviedb API.",
-    code: "https://github.com/MichalDziuba/goit-react-hw-05-movies",
+    code: "https://github.com/MichalDziuba/MoviesFinder",
   },
 ];
